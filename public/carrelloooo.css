@@ -1,0 +1,380 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    height: 40px;
+    padding: 10px;
+}
+
+nav a{
+    margin-left: 30px;
+}
+
+nav #esci{
+    margin-left: 30px;
+}
+
+nav form{
+    margin-left: 30px;
+}
+
+#home input{
+    border-radius: 5px;
+    height: 40px;
+    font-style: italic;
+    font-size:larger;
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+}
+
+#esci input{
+    border-radius: 5px;
+    height: 40px;
+    font-style: italic;
+    font-size:larger;
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+}
+
+#acq_but{
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+    font-style: italic;
+    font-size:larger;
+    height: 40px;
+    border-radius: 5px;
+}
+
+#paga{
+  display: flex;
+  width: 100%;
+ justify-content: center;
+  
+}
+
+#chiudi_paga #yu{
+    background-color: rgb(255, 94, 0);
+}
+
+#chiudi_paga #yu:hover{
+    border: 2px solid black;
+}
+
+#paga #paga_button{
+    background-color: rgb(255, 94, 0);
+    width: 70%;
+}
+
+#paga #paga_button:hover{
+    border: 2px solid black;
+}
+
+header{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(header.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+@media(max-width: 1080px){
+    header{
+        width: 800px;
+    }
+}
+
+header h1{
+   
+    color: blue;
+    border: 5px solid black;
+    border-radius: 100%;
+    background-color: aqua;
+    z-index: 1;
+    width: 400px;
+    text-align: center;
+}
+
+#ciao{
+    display: inline-block;
+    font-size: xx-large;
+    animation-name: scr;
+    animation: scr 3s;
+    padding: 5px;
+    font-family:fantasy;
+    background-color: crimson;
+    border-radius: 10px;
+    width: min-content;
+}
+
+.overlay{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+#carrell{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-right: 5%;
+}
+
+#pagina button{
+    width: 30%;
+    height: 30px;
+}
+
+#carrell .pro{
+    display: flex;
+    height: 180px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+#carrell .pro .quant{
+   display: flex;
+   height: 28px;
+   align-items: center;
+}
+
+#carrell .pro .quant button{
+    height: 30px;
+    width: 30px;
+ }
+
+ #carrell .prezzo .cest{
+    background-image: url(cestino.jpg);
+    height: 33px;
+    width: 33px;
+ }
+
+ #carrell .pro .quant p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 30px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+ }
+
+
+ #carrell .pro .quant img{
+    margin-left: 2px;
+    height: 30px;
+    width: 30px;
+ }
+
+#carrell .pro .dettagli{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    align-items: center;
+}
+
+#carrell .pro .dettagli .n{
+  
+    height: 15px;
+}
+
+#carrell .pro .dettagli .nModello{
+    margin-top: -10px;
+  
+}
+
+
+#carrell .pro .prezzo{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-around;
+ 
+}
+
+.hidden{
+    display: none;
+}
+
+.hidden2{
+    visibility: hidden;
+}
+
+#carrell .pro img{
+    height: 170px;
+    width: 250px;
+}
+
+#pagina{
+    display: flex;
+
+    width: 100%;
+}
+
+#modal{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#pagamento{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.9);
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+.pag{
+    display: flex;
+    flex-direction: column;
+    height: 30%;
+    border: 5px solid orange;
+    justify-content:space-around;
+    align-items: center;
+    background-color: orangered;
+}
+
+#chiudi_paga button{
+    align-items: flex-start;
+    height: 30px;
+    width: 30px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#indirizzo{
+    display: flex;
+    flex-direction: column;
+}
+
+.acquisto_ok{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 15%;
+    border-radius: 40px;
+    background-color: brown;
+    border:10px solid whitesmoke;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+.no-scroll{
+    overflow: hidden;
+}
+
+#acquisto{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   height: 500px;
+   width: 15%;
+   border: 3px solid black;
+   background-color:darkkhaki;
+   border-radius: 30px;
+}
+
+#acquisto p{
+font-size: xx-large;
+background-color: darkgoldenrod;
+border: 2px solid black;
+border-radius: 5px;
+}
+
+#acquisto button{
+    border-radius: 20px;
+    font-size: large;
+    background-color: crimson;
+    width: 60%;
+    height: 50px;
+}
+
+#acquisto button:hover{
+   border: 5px solid black; 
+}
+
+
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: black;
+    height: 250px;
+}
+
+@media(max-width: 1080px){
+    footer{
+        width: 850px;
+    }
+}
+
+footer .flex_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-footer p{
+    color: white;
+    margin-bottom: 10px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+.flex-footer a{
+    display: block;
+    color: white;
+    margin-top: 30px;
+    background-color: white;
+    color:chocolate;
+    border:3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+.titoli{
+    font-size:  20px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#Ingegnere{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

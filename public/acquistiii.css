@@ -1,0 +1,224 @@
+nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+    padding: 10px;
+}
+
+nav a
+{
+    margin-left: 30px;
+}
+
+nav form{
+    margin-left: 30px;
+}
+
+nav #esci
+{
+    margin-left: 30px;
+}
+
+#home input{
+    border-radius: 5px;
+    height: 40px;
+    font-style: italic;
+    font-size:larger;
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+}
+
+#esci input{
+    border-radius: 5px;
+    height: 40px;
+    font-style: italic;
+    font-size:larger;
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+}
+
+
+#car_but{
+    background-color: rgb(255, 104, 104);
+    border:2px solid black;
+    font-style: italic;
+    font-size:larger;
+    height: 40px;
+    border-radius: 5px;
+}
+
+header
+{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 500px;
+    background-image: url(header.jpg);
+    background-size: cover;
+    z-index: -1;
+}
+
+@media(max-width: 1080px){
+    header{
+        width: 800px;
+    }
+}
+
+header h1
+{
+    color: blue;
+    border: 5px solid black;
+    border-radius: 100%;
+    background-color: aqua;
+    z-index: 1;
+    width: 400px;
+    text-align: center;
+}
+
+#ciao{
+    display: inline-block;
+    font-size: xx-large;
+    animation-name: scr;
+    animation: scr 3s;
+    padding: 5px;
+    font-family:fantasy;
+    background-color: crimson;
+    border-radius: 10px;
+}
+
+.overlay
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.hidden
+{
+    display: none;
+}
+
+.hidden2
+{
+    visibility: hidden;
+}
+
+#acquisti
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.acqu
+{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 70%;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+
+.data{
+    display: inline-block;
+    width: 120px;
+    padding-left: 5px;
+    background-color: gold;
+    margin-top: -1px;
+    height: min-content;
+    display: inline-block;
+    font-size: x-large;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+img{
+    margin-right: 50px;
+    margin-top: -15px;
+}
+
+.nomi{
+    width: 200px;
+}
+
+.prezzo{
+    margin-left: 30px;
+}
+
+.acqu .dettagli{
+    display: flex;
+}
+
+.nomi{
+    display: flex;
+    flex-direction: column;
+}
+
+.acqu img{
+    height: 150px;
+    width: 250px;
+}
+
+
+footer{
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+    background-color: black;
+    height: 250px;
+}
+
+@media(max-width: 1080px){
+    footer{
+        width: 850px;
+    }
+}
+
+footer .flex_footer{
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-footer p{
+    color: white;
+    margin-bottom: 10px;
+    color: black;
+    background-color: white;
+    padding: 5px;
+}
+
+.flex-footer a{
+    display: block;
+    color: white;
+    margin-top: 30px;
+    background-color: white;
+    color:chocolate;
+    border:3px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+
+
+.titoli{
+    font-size:  20px;
+    display: block;
+    text-align: center;
+    background-color: white;
+    border: 5px solid rgb(255, 0, 0);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#Ingegnere{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}

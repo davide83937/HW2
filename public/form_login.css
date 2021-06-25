@@ -1,0 +1,350 @@
+#pagina
+{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+#contenuti
+{
+  
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+    background-color:rgb(167, 57, 57);
+
+}
+
+#title
+{
+  display: inline-block;
+}
+
+#login
+{
+  position: fixed;
+    display: flex;
+    flex-direction: column;
+    position: static;
+    width: 50%;
+    height: 100%;
+    justify-content: center;
+    align-content: center;
+    background-color: rgb(31, 100, 61);
+   
+}
+
+#login span{
+    align-content: center;
+}
+
+#accedi span{
+  color: white;
+}
+
+#registrati span{
+  background-color: rgb(243, 64, 64);
+  padding: 5px;
+  border-radius: 5px;
+  border:2px solid  black;
+  width: 45%;
+  height: min-content;
+
+}
+
+
+#ricorda
+{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+#ricorda 
+{
+   margin-top: -20px;
+}
+
+#login input
+{
+    border-radius: 10px;
+    height: 35px;
+}
+
+#login2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70%; 
+}
+
+#login2 span
+{
+  margin-bottom: 10px;
+}
+
+#acc_reg{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 333.6px;
+    height: 50px;
+    margin-bottom: 30px;
+    background-color: white;   
+}
+
+.nom_cog{
+    display: flex;
+    flex-direction: row;  
+}
+
+.ts
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50%;
+} 
+
+.acre
+{
+border-right: 2px solid black;
+background-color: grey;
+margin-top: 10px;
+}
+
+#ac:hover
+{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#re:hover
+{
+    margin-top: 10px;
+    border: 2px solid black;
+}
+
+#accedi
+{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-around;
+}
+
+#accedi .nom_cog
+{
+    margin-top: 30px;
+}
+
+#dati
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#dati div
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#accedi .nom_cog div
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: 30px;
+}
+
+#registrati
+{
+    display: flex;
+    flex-direction: column;
+    height: min-content;
+    margin-top: -110px;
+    justify-content: space-around;
+}
+
+#registrati #dati input
+{
+    width: 329.6px;
+}
+
+#contenuti{
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+@keyframes animato{
+    0% {
+       transform: translateX(50%);
+      }
+    25%{
+        transform: translateY(45%);
+       }
+    50%{
+        transform: translateX(-50%);
+       }
+    75%{
+        transform: translateY(-50%);
+       }
+    100%{
+        transform: translateX(50%);
+        }
+  }
+
+
+
+
+
+  
+  #power span {
+    color: #000;
+    font-family: 'Caesar Dressing', cursive;
+    font-size: 3em;
+    text-transform: lowercase;
+    vertical-align: middle;
+    letter-spacing: .2em;
+  }
+  
+  .fire {
+    animation: animation 1s ease-in-out infinite alternate;
+    -moz-animation: animation 1s ease-in-out infinite alternate;
+    -webkit-animation: animation 1s ease-in-out infinite alternate;
+    -o-animation: animation 1s ease-in-out infinite alternate;
+  }
+  
+  .burn {
+    animation: animation .65s ease-in-out infinite alternate;
+    -moz-animation: animation .65s ease-in-out infinite alternate;
+    -webkit-animation: animation .65s ease-in-out infinite alternate;
+    -o-animation: animation .65s ease-in-out infinite alternate;
+  }
+  
+  @keyframes animation
+  {
+  0% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #feec85,
+    -20px -20px 40px #ffae34,
+    20px -40px 50px #ec760c,
+    -20px -60px 60px #cd4606,
+    0 -80px 70px #973716,
+    10px -90px 80px #451b0e;}
+  100% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #fefcc9,
+    -20px -20px 40px #feec85,
+    22px -42px 60px #ffae34,
+    -22px -58px 50px #ec760c,
+    0 -82px 80px #cd4606,
+    10px -90px 80px  #973716;}
+  }
+  
+  @-moz-keyframes animation
+  {
+  0% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #feec85,
+    -20px -20px 40px #ffae34,
+    20px -40px 50px #ec760c,
+    -20px -60px 60px #cd4606,
+    0 -80px 70px #973716,
+    10px -90px 80px #451b0e;}
+  100% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #fefcc9,
+    -20px -20px 40px #feec85,
+    22px -42px 60px #ffae34,
+    -22px -58px 50px #ec760c,
+    0 -82px 80px #cd4606,
+    10px -90px 80px  #973716;}
+  }
+  
+  @-webkit-keyframes animation
+  {
+  0% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #feec85,
+    -20px -20px 40px #ffae34,
+    20px -40px 50px #ec760c,
+    -20px -60px 60px #cd4606,
+    0 -80px 70px #973716,
+    10px -90px 80px #451b0e;}
+  100% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #fefcc9,
+    -20px -20px 40px #feec85,
+    22px -42px 60px #ffae34,
+    -22px -58px 50px #ec760c,
+    0 -82px 80px #cd4606,
+    10px -90px 80px  #973716;}
+  }
+  
+  @-o-keyframes animation
+  {
+  0% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #feec85,
+    -20px -20px 40px #ffae34,
+    20px -40px 50px #ec760c,
+    -20px -60px 60px #cd4606,
+    0 -80px 70px #973716,
+    10px -90px 80px #451b0e;}
+  100% {text-shadow: 0 0 20px #fefcc9,
+    10px -10px 30px #fefcc9,
+    -20px -20px 40px #feec85,
+    22px -42px 60px #ffae34,
+    -22px -58px 50px #ec760c,
+    0 -82px 80px #cd4606,
+    10px -90px 80px  #973716;}
+  }
+
+.anima img
+{
+    animation-name: animato;
+    animation: animato 10s infinite;
+}
+
+@-webkit-keyframes scr{
+0%{
+      transform: translateX(-50%);
+  }
+  
+}
+
+.anima h1{
+   
+    animation-name: scr;
+    animation: scr 5s infinite;
+    top: 50%;
+    left: 50%;
+    
+    font-size:65px;
+      letter-spacing:0.1em;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white;
+    text-shadow: 
+                          8px 8px #ff1f8f,
+                          20px 20px #000000;
+  }
+
+#contenuti img{
+    width: 50%;
+    height: 30%;
+}
+
+.hidden
+{
+    visibility: hidden;
+    height: 0%;
+}
+
+.hidden2
+{
+    display: none;
+}
